@@ -2,26 +2,20 @@
   "stats": {
     "suites": 8,
     "tests": 13,
-    "passes": 10,
+    "passes": 13,
     "pending": 0,
-    "failures": 3,
-    "start": "2022-08-28T00:31:55.145Z",
-    "end": "2022-08-28T00:31:55.488Z",
-    "duration": 343
+    "failures": 0,
+    "start": "2022-09-10T07:54:16.389Z",
+    "end": "2022-09-10T07:54:16.619Z",
+    "duration": 230
   },
   "tests": [
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected [] to deeply equal [ 'Antonia', 'Nuru' ]",
-        "showDiff": true,
-        "actual": "[]",
-        "expected": "[\n  \"Antonia\"\n  \"Nuru\"\n]",
-        "stack": "AssertionError: expected [] to deeply equal [ 'Antonia', 'Nuru' ]\n    at Context.<anonymous> (test/indexTest.js:10:49)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return an array of the last two drivers",
@@ -49,13 +43,7 @@
       "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected [] to deeply equal [ 'Antonia', 'Nuru' ]",
-        "showDiff": true,
-        "actual": "[]",
-        "expected": "[\n  \"Antonia\"\n  \"Nuru\"\n]",
-        "stack": "AssertionError: expected [] to deeply equal [ 'Antonia', 'Nuru' ]\n    at Context.<anonymous> (test/indexTest.js:30:47)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     },
     {
       "title": "returns a function",
@@ -74,7 +62,7 @@
     {
       "title": "is a function",
       "fullTitle": "index.js fareDoubler() is a function",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -104,13 +92,7 @@
       "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected [] to deeply equal [ 'Antonia', 'Nuru' ]",
-        "showDiff": true,
-        "actual": "[]",
-        "expected": "[\n  \"Antonia\"\n  \"Nuru\"\n]",
-        "stack": "AssertionError: expected [] to deeply equal [ 'Antonia', 'Nuru' ]\n    at Context.<anonymous> (test/indexTest.js:72:73)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     },
     {
       "title": "returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
@@ -121,48 +103,15 @@
     }
   ],
   "pending": [],
-  "failures": [
+  "failures": [],
+  "passes": [
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected [] to deeply equal [ 'Antonia', 'Nuru' ]",
-        "showDiff": true,
-        "actual": "[]",
-        "expected": "[\n  \"Antonia\"\n  \"Nuru\"\n]",
-        "stack": "AssertionError: expected [] to deeply equal [ 'Antonia', 'Nuru' ]\n    at Context.<anonymous> (test/indexTest.js:10:49)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     },
-    {
-      "title": "allows us to invoke either function from the array",
-      "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected [] to deeply equal [ 'Antonia', 'Nuru' ]",
-        "showDiff": true,
-        "actual": "[]",
-        "expected": "[\n  \"Antonia\"\n  \"Nuru\"\n]",
-        "stack": "AssertionError: expected [] to deeply equal [ 'Antonia', 'Nuru' ]\n    at Context.<anonymous> (test/indexTest.js:30:47)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
-      "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected [] to deeply equal [ 'Antonia', 'Nuru' ]",
-        "showDiff": true,
-        "actual": "[]",
-        "expected": "[\n  \"Antonia\"\n  \"Nuru\"\n]",
-        "stack": "AssertionError: expected [] to deeply equal [ 'Antonia', 'Nuru' ]\n    at Context.<anonymous> (test/indexTest.js:72:73)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    }
-  ],
-  "passes": [
     {
       "title": "should return an array of the last two drivers",
       "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
@@ -185,6 +134,13 @@
       "err": {}
     },
     {
+      "title": "allows us to invoke either function from the array",
+      "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
       "duration": 0,
@@ -201,7 +157,7 @@
     {
       "title": "is a function",
       "fullTitle": "index.js fareDoubler() is a function",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -222,6 +178,13 @@
     {
       "title": "triples fares",
       "fullTitle": "index.js fareTripler() triples fares",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
+      "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
